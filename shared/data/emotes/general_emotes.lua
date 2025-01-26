@@ -509,17 +509,17 @@ return {
                 },
             },
         },
-        {
-            Label = 'Clown 5',
-            Command = 'clown5',
-            Animation = 'clown_idle_6',
-            Dictionary = 'rcm_barry2',
-            Options = {
-                Flags = {
-                    Loop = true,
-                },
-            },
-        },
+        -- {
+        --     Label = 'Clown 5',
+        --     Command = 'clown5',
+        --     Animation = 'clown_idle_6',
+        --     Dictionary = 'rcm_barry2',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --         },
+        --     },
+        -- },
         {
             Label = 'Come at me bro',
             Command = 'comeatmebro',

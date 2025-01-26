@@ -239,31 +239,31 @@ return {
         Command = 'fire3',
         Walk = 'move_m@fire',
     },
-    {
-        Label = 'Flee',
-        Command = 'flee',
-        Walk = 'move_f@flee@a',
-    },
-    {
-        Label = 'Flee 2',
-        Command = 'flee2',
-        Walk = 'move_f@flee@c',
-    },
-    {
-        Label = 'Flee 3',
-        Command = 'flee3',
-        Walk = 'move_m@flee@a',
-    },
-    {
-        Label = 'Flee 4',
-        Command = 'flee4',
-        Walk = 'move_m@flee@b',
-    },
-    {
-        Label = 'Flee 5',
-        Command = 'flee5',
-        Walk = 'move_m@flee@c',
-    },
+    -- {
+    --     Label = 'Flee',
+    --     Command = 'flee',
+    --     Walk = 'move_f@flee@a',
+    -- },
+    -- {
+    --     Label = 'Flee 2',
+    --     Command = 'flee2',
+    --     Walk = 'move_f@flee@c',
+    -- },
+    -- {
+    --     Label = 'Flee 3',
+    --     Command = 'flee3',
+    --     Walk = 'move_m@flee@a',
+    -- },
+    -- {
+    --     Label = 'Flee 4',
+    --     Command = 'flee4',
+    --     Walk = 'move_m@flee@b',
+    -- },
+    -- {
+    --     Label = 'Flee 5',
+    --     Command = 'flee5',
+    --     Walk = 'move_m@flee@c',
+    -- },
     {
         Label = 'Floyd',
         Command = 'floyd',

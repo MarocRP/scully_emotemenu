@@ -209,16 +209,16 @@ return {
         Command = 'statue',
         Scenario = 'WORLD_HUMAN_HUMAN_STATUE',
     },
-    {
-        Label = 'Sunbathe 3',
-        Command = 'sunbathe3',
-        Scenario = 'WORLD_HUMAN_SUNBATHE',
-    },
-    {
-        Label = 'Sunbathe Back',
-        Command = 'sunbatheback',
-        Scenario = 'WORLD_HUMAN_SUNBATHE_BACK',
-    },
+    -- {
+    --     Label = 'Sunbathe 3',
+    --     Command = 'sunbathe3',
+    --     Scenario = 'WORLD_HUMAN_SUNBATHE',
+    -- },
+    -- {
+    --     Label = 'Sunbathe Back',
+    --     Command = 'sunbatheback',
+    --     Scenario = 'WORLD_HUMAN_SUNBATHE_BACK',
+    -- },
     {
         Label = 'Texting',
         Command = 'texting',
