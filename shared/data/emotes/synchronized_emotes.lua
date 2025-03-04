@@ -52,155 +52,155 @@ return {
             },
             Synchronized = true
         },
-        {
-            Label = 'Carry',
-            Command = 'scarry',
-            Animation = 'fin_c2_mcs_1_camman',
-            Dictionary = 'missfinale_c2mcs_1',
-            Options = {
-                Flags = {
-                    Loop = true,
-                    Move = true,
-                },
-                Shared = {
-                    OtherEmote = 'scarried',
-                },
-            },
-            SkipRequest = true,
-            Synchronized = true
-        },
-        {
-            Label = 'Carried',
-            Command = 'scarried',
-            Animation = 'firemans_carry',
-            Dictionary = 'nm',
-            Options = {
-                Flags = {
-                    Loop = true,
-                },
-                Shared = {
-                    Attach = true,
-                    Bone = 40269,
-                    OtherEmote = 'scarry',
-                    Placement = {
-                        vector3(-0.140000, 0.150000, 0.140000),
-                        vector3(0.000000, -59.000000, -4.500000),
-                    },
-                },
-            },
-            Synchronized = true
-        },
-        {
-            Label = 'Carry 2',
-            Command = 'carry2',
-            Animation = 'idle',
-            Dictionary = 'anim@heists@box_carry@',
-            Options = {
-                Flags = {
-                    Loop = true,
-                    Move = true,
-                },
-                Shared = {
-                    Bone = 40269,
-                    OtherEmote = 'scarried2',
-                },
-            },
-            SkipRequest = true,
-            Synchronized = true
-        },
-        {
-            Label = 'Carried 2',
-            Command = 'scarried2',
-            Animation = 'base',
-            Dictionary = 'amb@code_human_in_car_idles@generic@ps@base',
-            Options = {
-                Flags = {
-                    Loop = true,
-                },
-                Shared = {
-                    Attach = true,
-                    Bone = 28252,
-                    OtherEmote = 'carry2',
-                    Placement = {
-                        vector3(0.350000, 0.150000, -0.150000),
-                        vector3(-42.500000, -22.500000, 22.500000),
-                    },
-                },
-            },
-            Synchronized = true
-        },
-        {
-            Label = 'Carry 3',
-            Command = 'scarry3',
-            Animation = 'couplepose1cmg_clip',
-            Dictionary = 'couplepose1cmg@animation',
-            Options = {
-                Flags = {
-                    Loop = true,
-                },
-                Shared = {
-                    OtherEmote = 'carried3',
-                },
-            },
-            Synchronized = true
-        },
-        {
-            Label = 'Carried 3',
-            Command = 'carried3',
-            Animation = 'couplepose2cmg_clip',
-            Dictionary = 'couplepose2cmg@animation',
-            Options = {
-                Flags = {
-                    Loop = true,
-                },
-                Shared = {
-                    Attach = true,
-                    Bone = 0,
-                    OtherEmote = 'scarry3',
-                    Placement = {
-                        vector3(0.010000, 0.344000, -0.010000),
-                        vector3(180.000000, 180.000000, -1.999900),
-                    },
-                },
-            },
-            Synchronized = true
-        },
-        {
-            Label = 'Carry Big Dog',
-            Command = 'scbdog',
-            Animation = 'idle',
-            Dictionary = 'anim@heists@box_carry@',
-            Options = {
-                Flags = {
-                    Loop = true,
-                    Move = true,
-                },
-                Shared = {
-                    OtherEmote = 'scbdog2',
-                },
-            },
-            Synchronized = true
-        },
-        {
-            Label = 'Big Dog Carried',
-            Command = 'scbdog2',
-            Animation = 'sleep_in_kennel',
-            Dictionary = 'creatures@rottweiler@amb@sleep_in_kennel@',
-            Options = {
-                Flags = {
-                    Loop = true,
-                },
-                Shared = {
-                    Attach = true,
-                    OtherEmote = 'scbdog',
-                    Placement = {
-                        vector3(-0.100000, 0.650000, 0.430000),
-                        vector3(0.000000, 0.000000, -100.000000),
-                    },
-                },
-            },
-            Synchronized = true
-        },
+        -- {
+        --     Label = 'Carry',
+        --     Command = 'scarry',
+        --     Animation = 'fin_c2_mcs_1_camman',
+        --     Dictionary = 'missfinale_c2mcs_1',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --             Move = true,
+        --         },
+        --         Shared = {
+        --             OtherEmote = 'scarried',
+        --         },
+        --     },
+        --     SkipRequest = true,
+        --     Synchronized = true
+        -- },
+        -- {
+        --     Label = 'Carried',
+        --     Command = 'scarried',
+        --     Animation = 'firemans_carry',
+        --     Dictionary = 'nm',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --         },
+        --         Shared = {
+        --             Attach = true,
+        --             Bone = 40269,
+        --             OtherEmote = 'scarry',
+        --             Placement = {
+        --                 vector3(-0.140000, 0.150000, 0.140000),
+        --                 vector3(0.000000, -59.000000, -4.500000),
+        --             },
+        --         },
+        --     },
+        --     Synchronized = true
+        -- },
+        -- {
+        --     Label = 'Carry 2',
+        --     Command = 'carry2',
+        --     Animation = 'idle',
+        --     Dictionary = 'anim@heists@box_carry@',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --             Move = true,
+        --         },
+        --         Shared = {
+        --             Bone = 40269,
+        --             OtherEmote = 'scarried2',
+        --         },
+        --     },
+        --     SkipRequest = true,
+        --     Synchronized = true
+        -- },
+        -- {
+        --     Label = 'Carried 2',
+        --     Command = 'scarried2',
+        --     Animation = 'base',
+        --     Dictionary = 'amb@code_human_in_car_idles@generic@ps@base',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --         },
+        --         Shared = {
+        --             Attach = true,
+        --             Bone = 28252,
+        --             OtherEmote = 'carry2',
+        --             Placement = {
+        --                 vector3(0.350000, 0.150000, -0.150000),
+        --                 vector3(-42.500000, -22.500000, 22.500000),
+        --             },
+        --         },
+        --     },
+        --     Synchronized = true
+        -- },
+        -- {
+        --     Label = 'Carry 3',
+        --     Command = 'scarry3',
+        --     Animation = 'couplepose1cmg_clip',
+        --     Dictionary = 'couplepose1cmg@animation',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --         },
+        --         Shared = {
+        --             OtherEmote = 'carried3',
+        --         },
+        --     },
+        --     Synchronized = true
+        -- },
+        -- {
+        --     Label = 'Carried 3',
+        --     Command = 'carried3',
+        --     Animation = 'couplepose2cmg_clip',
+        --     Dictionary = 'couplepose2cmg@animation',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --         },
+        --         Shared = {
+        --             Attach = true,
+        --             Bone = 0,
+        --             OtherEmote = 'scarry3',
+        --             Placement = {
+        --                 vector3(0.010000, 0.344000, -0.010000),
+        --                 vector3(180.000000, 180.000000, -1.999900),
+        --             },
+        --         },
+        --     },
+        --     Synchronized = true
+        -- },
+        -- {
+        --     Label = 'Carry Big Dog',
+        --     Command = 'scbdog',
+        --     Animation = 'idle',
+        --     Dictionary = 'anim@heists@box_carry@',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --             Move = true,
+        --         },
+        --         Shared = {
+        --             OtherEmote = 'scbdog2',
+        --         },
+        --     },
+        --     Synchronized = true
+        -- },
+        -- {
+        --     Label = 'Big Dog Carried',
+        --     Command = 'scbdog2',
+        --     Animation = 'sleep_in_kennel',
+        --     Dictionary = 'creatures@rottweiler@amb@sleep_in_kennel@',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --         },
+        --         Shared = {
+        --             Attach = true,
+        --             OtherEmote = 'scbdog',
+        --             Placement = {
+        --                 vector3(-0.100000, 0.650000, 0.430000),
+        --                 vector3(0.000000, 0.000000, -100.000000),
+        --             },
+        --         },
+        --     },
+        --     Synchronized = true
+        -- },
         {
             Label = 'Couple Drinking (Wine Glasses)',
             Command = 'scoupleanim',
@@ -719,80 +719,80 @@ return {
             },
             Synchronized = true
         },
-        {
-            Label = 'Piggy Back',
-            Command = 'spback',
-            Animation = 'mxclip_a',
-            Dictionary = 'mx@piggypack_a',
-            Options = {
-                Flags = {
-                    Loop = true,
-                    Move = true,
-                },
-                Shared = {
-                    OtherEmote = 'spback2',
-                },
-            },
-            Synchronized = true
-        },
-        {
-            Label = 'Piggy Back 2',
-            Command = 'spback2',
-            Animation = 'mxanim_b',
-            Dictionary = 'mx@piggypack_b',
-            Options = {
-                Flags = {
-                    Loop = true,
-                },
-                Shared = {
-                    Attach = true,
-                    Bone = 0,
-                    OtherEmote = 'spback',
-                    Placement = {
-                        vector3(0.020000, -0.439900, 0.420000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-            Synchronized = true
-        },
-        {
-            Label = 'Piggy Back 3',
-            Command = 'spback3',
-            Animation = 'piggyback_c_player_a',
-            Dictionary = 'anim@arena@celeb@flat@paired@no_props@',
-            Options = {
-                Flags = {
-                    Loop = true,
-                    Move = true,
-                },
-                Shared = {
-                    OtherEmote = 'spback2',
-                },
-            },
-            Synchronized = true
-        },
-        {
-            Label = 'Piggy Back 4',
-            Command = 'spback4',
-            Animation = 'piggyback_c_player_b',
-            Dictionary = 'anim@arena@celeb@flat@paired@no_props@',
-            Options = {
-                Flags = {
-                    Loop = true,
-                },
-                Shared = {
-                    Attach = true,
-                    Bone = 0,
-                    OtherEmote = 'spback',
-                    Placement = {
-                        vector3(0.000000, -0.700000, 0.400000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-            Synchronized = true
-        },
+        -- {
+        --     Label = 'Piggy Back',
+        --     Command = 'spback',
+        --     Animation = 'mxclip_a',
+        --     Dictionary = 'mx@piggypack_a',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --             Move = true,
+        --         },
+        --         Shared = {
+        --             OtherEmote = 'spback2',
+        --         },
+        --     },
+        --     Synchronized = true
+        -- },
+        -- {
+        --     Label = 'Piggy Back 2',
+        --     Command = 'spback2',
+        --     Animation = 'mxanim_b',
+        --     Dictionary = 'mx@piggypack_b',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --         },
+        --         Shared = {
+        --             Attach = true,
+        --             Bone = 0,
+        --             OtherEmote = 'spback',
+        --             Placement = {
+        --                 vector3(0.020000, -0.439900, 0.420000),
+        --                 vector3(0.000000, 0.000000, 0.000000),
+        --             },
+        --         },
+        --     },
+        --     Synchronized = true
+        -- },
+        -- {
+        --     Label = 'Piggy Back 3',
+        --     Command = 'spback3',
+        --     Animation = 'piggyback_c_player_a',
+        --     Dictionary = 'anim@arena@celeb@flat@paired@no_props@',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --             Move = true,
+        --         },
+        --         Shared = {
+        --             OtherEmote = 'spback2',
+        --         },
+        --     },
+        --     Synchronized = true
+        -- },
+        -- {
+        --     Label = 'Piggy Back 4',
+        --     Command = 'spback4',
+        --     Animation = 'piggyback_c_player_b',
+        --     Dictionary = 'anim@arena@celeb@flat@paired@no_props@',
+        --     Options = {
+        --         Flags = {
+        --             Loop = true,
+        --         },
+        --         Shared = {
+        --             Attach = true,
+        --             Bone = 0,
+        --             OtherEmote = 'spback',
+        --             Placement = {
+        --                 vector3(0.000000, -0.700000, 0.400000),
+        --                 vector3(0.000000, 0.000000, 0.000000),
+        --             },
+        --         },
+        --     },
+        --     Synchronized = true
+        -- },
         {
             Label = 'Punch',
             Command = 'spunch',

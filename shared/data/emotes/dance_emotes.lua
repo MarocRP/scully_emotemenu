@@ -18504,5 +18504,116 @@ return {
                 },
             },
         },
+        -- Fortnite
+        {
+            Label = 'FN Cross Bounce',
+            Command = 'crossbounce',
+            Animation = 'crossbounce',
+            Dictionary = 'custom@crossbounce',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'FN Do Not Start',
+            Command = 'dontstart',
+            Animation = 'dont_start',
+            Dictionary = 'custom@dont_start',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'FN Floss',
+            Command = 'floss',
+            Animation = 'floss',
+            Dictionary = 'custom@floss',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'FN Orange Justice',
+            Command = 'orangejustice',
+            Animation = 'orangejustice',
+            Dictionary = 'custom@orangejustice',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'FN Renegade',
+            Command = 'renegade',
+            Animation = 'renegade',
+            Dictionary = 'custom@renegade',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'FN Rick Roll',
+            Command = 'rickroll',
+            Animation = 'rickroll',
+            Dictionary = 'custom@rickroll',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'FN Savage',
+            Command = 'savage',
+            Animation = 'savage',
+            Dictionary = 'custom@savage',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'FN Say so',
+            Command = 'sayso',
+            Animation = 'sayso',
+            Dictionary = 'custom@sayso',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'FN Take the L',
+            Command = 'takel',
+            Animation = 'take_l',
+            Dictionary = 'custom@take_l',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'FN Tootsie Slide',
+            Command = 'slide',
+            Animation = 'toosie_slide',
+            Dictionary = 'custom@toosie_slide',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
     }
 }

@@ -554,6 +554,41 @@ return {
                 },
             },
         },
+        -- Custom Police Animations
+        {
+            Label = 'DGSN Hand Rest Belt',
+            Command = 'handrestbelt',
+            Animation = 'cop_idle',
+            Dictionary = 'anim@hand_rest_belt',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'DGSN Hand Rest',
+            Command = 'handrestholster',
+            Animation = 'hand_rest',
+            Dictionary = 'anim@hand_rest_holster',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'DGSN Pullout From Holster',
+            Command = 'coppose',
+            Animation = 'pullout_gun',
+            Dictionary = 'anim@cop_pose',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        -- End Custom Police Animations
         {
             Label = 'Cough',
             Command = 'cough',
