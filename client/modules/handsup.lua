@@ -1,31 +1,31 @@
-lib.addKeybind({
-    name = 'handsupKey',
-    description = locale('hands_up'),
-    defaultKey = Config.handsUpKey,
-    onPressed = function()
-        if PlayerState.isLimited then return end
-        if GetVehiclePedIsEntering(cache.ped) ~= 0 then return end
+-- lib.addKeybind({
+--     name = 'handsupKey',
+--     description = locale('hands_up'),
+--     defaultKey = Config.handsUpKey,
+--     onPressed = function()
+--         if PlayerState.isLimited then return end
+--         if GetVehiclePedIsEntering(cache.ped) ~= 0 then return end
 
-        local onBike = false
+--         local onBike = false
 
-        if cache.vehicle then
-            local model = GetEntityModel(cache.vehicle)
+--         if cache.vehicle then
+--             local model = GetEntityModel(cache.vehicle)
 
-            onBike = IsThisModelABike(model)
-        end
+--             onBike = IsThisModelABike(model)
+--         end
 
-        lib.requestAnimDict('random@mugging3')
-        TaskPlayAnim(cache.ped, 'random@mugging3', 'handsup_standing_base', 8.0, 8.0, -1, 50, 0, false, onBike and 4127 or false, false)
+--         lib.requestAnimDict('random@mugging3')
+--         TaskPlayAnim(cache.ped, 'random@mugging3', 'handsup_standing_base', 8.0, 8.0, -1, 50, 0, false, onBike and 4127 or false, false)
 
-        PlayerState.handsup = true
-    end,
-    onReleased = function()
-        if PlayerState.isLimited then return end
-        if not PlayerState.handsup then return end
+--         PlayerState.handsup = true
+--     end,
+--     onReleased = function()
+--         if PlayerState.isLimited then return end
+--         if not PlayerState.handsup then return end
 
-        StopAnimTask(cache.ped, 'random@mugging3', 'handsup_standing_base', 8.0)
-        RemoveAnimDict('random@mugging3')
+--         StopAnimTask(cache.ped, 'random@mugging3', 'handsup_standing_base', 8.0)
+--         RemoveAnimDict('random@mugging3')
 
-        PlayerState.handsup = false
-    end
-})
+--         PlayerState.handsup = false
+--     end
+-- })

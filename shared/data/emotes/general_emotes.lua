@@ -561,7 +561,7 @@ return {
         },
         -- Custom Police Animations
         {
-            Label = 'DGSN Hand Rest Belt',
+            Label = 'LSPD Hand Rest Belt',
             Command = 'handrestbelt',
             Animation = 'cop_idle',
             Dictionary = 'anim@hand_rest_belt',
@@ -572,7 +572,7 @@ return {
             },
         },
         {
-            Label = 'DGSN Hand Rest',
+            Label = 'LSPD Hand Rest',
             Command = 'handrestholster',
             Animation = 'hand_rest',
             Dictionary = 'anim@hand_rest_holster',
@@ -583,7 +583,7 @@ return {
             },
         },
         {
-            Label = 'DGSN Pullout From Holster',
+            Label = 'LSPD Pullout From Holster',
             Command = 'coppose',
             Animation = 'pullout_gun',
             Dictionary = 'anim@cop_pose',

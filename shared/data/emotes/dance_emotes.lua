@@ -18615,5 +18615,817 @@ return {
                 },
             },
         },
+        -- Oudoud
+        {
+            Label = 'OudOud Beautiful Girl Laos Remix',
+            Command = 'oudoudbeautiful_girl_laos_remix',
+            Animation = 'oudoud_beautiful_girl_laos_remix',
+            Dictionary = 'oudoud@beautiful_girl_laos_remix',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Bonde do Brunao Mars',
+            Command = 'oudoudbonde_do_brunao',
+            Animation = 'oudoud_bonde_do_brunao_bruno_mars',
+            Dictionary = 'oudoud@bonde_do_brunao',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Gentleman Couple Left',
+            Command = 'oudgentlemanc_l',
+            Animation = 'oudoud_gentleman_couple_left',
+            Dictionary = 'oudoud@gentleman_couple',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Gentleman Couple Left Right',
+            Command = 'oudgentlemanc_r',
+            Animation = 'oudoud_gentleman_couple_right',
+            Dictionary = 'oudoud@gentleman_couple',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud HSKT Lee Hi Left',
+            Command = 'oudhskt_l',
+            Animation = 'oudoud_hskt_left',
+            Dictionary = 'oudoud@hskt',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud HSKT Lee Hi Right',
+            Command = 'oudhskt_r',
+            Animation = 'oudoud_hskt_right',
+            Dictionary = 'oudoud@hskt',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud HSKT Lee Hi Solo',
+            Command = 'oudhskt_s',
+            Animation = 'oudoud_hskt_solo',
+            Dictionary = 'oudoud@hskt',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Jingle Bell Rock Left',
+            Command = 'oudjingle_bell_rock_l',
+            Animation = 'oudoud_jingle_bell_rock_l',
+            Dictionary = 'oudoud@jingle_bell_rock',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Jingle Bell Rock Right',
+            Command = 'oudjingle_bell_rock_r',
+            Animation = 'oudoud_jingle_bell_rock_r',
+            Dictionary = 'oudoud@jingle_bell_rock',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Killin It Girl J-Hope',
+            Command = 'oudkillin_it_girl',
+            Animation = 'oudoud_killin_it_girl',
+            Dictionary = 'oudoud@killin_it_girl',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Killin It Girl Mirror J-Hope',
+            Command = 'oudkillin_it_girlm',
+            Animation = 'oudoud_killin_it_girl_mirror',
+            Dictionary = 'oudoud@killin_it_girl',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Lets Groove Left',
+            Command = 'oudoudlets_groovel',
+            Animation = 'oudoud_lets_groove_left',
+            Dictionary = 'oudoud@lets_groove',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Lets Groove Middle',
+            Command = 'oudoudlets_groovem',
+            Animation = 'oudoud_lets_groove_middle',
+            Dictionary = 'oudoud@lets_groove',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Lets Groove Right',
+            Command = 'oudoudlets_groover',
+            Animation = 'oudoud_lets_groove_right',
+            Dictionary = 'oudoud@lets_groove',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Mantra JENNIE',
+            Command = 'oudmantra',
+            Animation = 'oudoud_mantra_jennie',
+            Dictionary = 'oudoud@mantra_jennie',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'OudOud Moonlit Floor LISA',
+            Command = 'oudmoonlitfloor',
+            Animation = 'oudoud_moonlit_floor_lisa',
+            Dictionary = 'oudoud@moonlit_floor_lisa',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        -- Pazeee
+        {
+            Label = 'Squid Game Round and Round',
+            Command = 'squidgameround',
+            Animation = 'psquidgameroundclip',
+            Dictionary = 'psquidgameround@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'Meme Cat UI Dance',
+            Command = 'pcatui',
+            Animation = 'pcatuiclip',
+            Dictionary = 'pcatui@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'Meme Cat UAI Dance',
+            Command = 'pcatuai1',
+            Animation = 'pcatuai1clip',
+            Dictionary = 'pcatuai1@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'Meme Cat UAI Dance Fast',
+            Command = 'pcatuai2',
+            Animation = 'pcatuai2clip',
+            Dictionary = 'pcatuai2@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit-Up Left',
+            Command = 'pavehcar1l',
+            Animation = 'pavehcar1lclip',
+            Dictionary = 'pavehcar1l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit-Up Right',
+            Command = 'pavehcar1r',
+            Animation = 'pavehcar1rclip',
+            Dictionary = 'pavehcar1r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Hold On Tight Right',
+            Command = 'pavehcar2r',
+            Animation = 'pavehcar2rclip',
+            Dictionary = 'pavehcar2r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Hold On Tight Right',
+            Command = 'pavehcar2r',
+            Animation = 'pavehcar2rclip',
+            Dictionary = 'pavehcar2r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Hold On Tight Left',
+            Command = 'pavehcar2l',
+            Animation = 'pavehcar2lclip',
+            Dictionary = 'pavehcar2l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Relaxs Right',
+            Command = 'pavehcar3r',
+            Animation = 'pavehcar3rclip',
+            Dictionary = 'pavehcar3r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Relaxs Left',
+            Command = 'pavehcar3l',
+            Animation = 'pavehcar3lclip',
+            Dictionary = 'pavehcar3l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit and Wave Right',
+            Command = 'pavehcar4r',
+            Animation = 'pavehcar4rclip',
+            Dictionary = 'pavehcar4r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Cool Left',
+            Command = 'pavehcar4l',
+            Animation = 'pavehcar4lclip',
+            Dictionary = 'pavehcar4l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Rock And Roll Right',
+            Command = 'pavehcar5r',
+            Animation = 'pavehcar5rclip',
+            Dictionary = 'pavehcar5r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Rock And Roll Left',
+            Command = 'pavehcar5l',
+            Animation = 'pavehcar5lclip',
+            Dictionary = 'pavehcar5l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Relaxs Roof Right',
+            Command = 'pavehcar6r',
+            Animation = 'pavehcar6rclip',
+            Dictionary = 'pavehcar6r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Relaxs Roof Left',
+            Command = 'pavehcar6l',
+            Animation = 'pavehcar6lclip',
+            Dictionary = 'pavehcar6l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Happy Right',
+            Command = 'pavehcar7r',
+            Animation = 'pavehcar7rclip',
+            Dictionary = 'pavehcar7r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Happy Left',
+            Command = 'pavehcar7l',
+            Animation = 'pavehcar7lclip',
+            Dictionary = 'pavehcar7l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sleep Right',
+            Command = 'pavehcar8r',
+            Animation = 'pavehcar8rclip',
+            Dictionary = 'pavehcar8r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sleep Left',
+            Command = 'pavehcar8l',
+            Animation = 'pavehcar8lclip',
+            Dictionary = 'pavehcar8l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Enjoy Lucia',
+            Command = 'pavehcar10',
+            Animation = 'pavehcar10clip',
+            Dictionary = 'pavehcar10@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Here I Am',
+            Command = 'pbvehcar1',
+            Animation = 'pbvehcar1clip',
+            Dictionary = 'pbvehcar1@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Enjoy The Wind',
+            Command = 'pbvehcar2',
+            Animation = 'pbvehcar2clip',
+            Dictionary = 'pbvehcar2@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Enjoy The Ride Right',
+            Command = 'pbvehcar3r',
+            Animation = 'pbvehcar3rclip',
+            Dictionary = 'pbvehcar3r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Enjoy The Ride Left',
+            Command = 'pbvehcar3l',
+            Animation = 'pbvehcar3lclip',
+            Dictionary = 'pbvehcar3l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Enjoy The Ride 2 Right',
+            Command = 'pbvehcar4r',
+            Animation = 'pbvehcar4rclip',
+            Dictionary = 'pbvehcar4r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Enjoy The Ride 2 Left',
+            Command = 'pbvehcar4l',
+            Animation = 'pbvehcar4lclip',
+            Dictionary = 'pbvehcar4l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Looking The View Right',
+            Command = 'pbvehcar5r',
+            Animation = 'pbvehcar5rclip',
+            Dictionary = 'pbvehcar5r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Looking The View Left',
+            Command = 'pbvehcar5l',
+            Animation = 'pbvehcar5lclip',
+            Dictionary = 'pbvehcar5l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Twerk Right',
+            Command = 'pbvehcar6r',
+            Animation = 'pbvehcar6rclip',
+            Dictionary = 'pbvehcar6r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Twerk Left',
+            Command = 'pbvehcar6l',
+            Animation = 'pbvehcar6lclip',
+            Dictionary = 'pbvehcar6l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Standing At The Driver Left',
+            Command = 'pbvehcar7l',
+            Animation = 'pbvehcar7lclip',
+            Dictionary = 'pbvehcar7l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sleep On The Roof',
+            Command = 'pbvehcar8',
+            Animation = 'pbvehcar8clip',
+            Dictionary = 'pbvehcar8@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Relaxs On The Roof',
+            Command = 'pbvehcar9',
+            Animation = 'pbvehcar9clip',
+            Dictionary = 'pbvehcar9@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Relaxs On The Roof',
+            Command = 'pbvehcar10',
+            Animation = 'pbvehcar10clip',
+            Dictionary = 'pbvehcar10@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Enjoy On The Roof',
+            Command = 'pcvehcar1',
+            Animation = 'pcvehcar1clip',
+            Dictionary = 'pcvehcar1@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Trunk Right',
+            Command = 'pcvehcar2r',
+            Animation = 'pcvehcar2rclip',
+            Dictionary = 'pcvehcar2r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Trunk Left',
+            Command = 'pcvehcar2l',
+            Animation = 'pcvehcar2lclip',
+            Dictionary = 'pcvehcar2l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Trunk Lower Right',
+            Command = 'pcvehcar3r',
+            Animation = 'pcvehcar3rclip',
+            Dictionary = 'pcvehcar3r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Sit Trunk Lower Left',
+            Command = 'pcvehcar3l',
+            Animation = 'pcvehcar3lclip',
+            Dictionary = 'pcvehcar3l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Fly Right',
+            Command = 'pcvehcar4r',
+            Animation = 'pcvehcar4rclip',
+            Dictionary = 'pcvehcar4r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Fly Left',
+            Command = 'pcvehcar4l',
+            Animation = 'pcvehcar4lclip',
+            Dictionary = 'pcvehcar4l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Fly Random',
+            Command = 'pcvehcar5',
+            Animation = 'pcvehcar5clip',
+            Dictionary = 'pcvehcar5@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Fly Higher',
+            Command = 'pcvehcar6',
+            Animation = 'pcvehcar6clip',
+            Dictionary = 'pcvehcar6@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Motorcycle Hold On Tight',
+            Command = 'pcvehcar7',
+            Animation = 'pcvehcar7clip',
+            Dictionary = 'pcvehcar7@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Motorcycle Sit Facing Back',
+            Command = 'pcvehcar9',
+            Animation = 'pcvehcar9clip',
+            Dictionary = 'pcvehcar9@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+            },
+        },
+        {
+            Label = 'Veh Motorcycle Two Gun',
+            Command = 'pcvehcar8',
+            Animation = 'pcvehcar8clip',
+            Dictionary = 'pcvehcar8@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+                Props = {
+                    {
+                        Bone = 26611,
+                        Name = 'w_pi_pistol50_luxe',
+                        Placement = {
+                            vec3(0.07, -0.01, 0.01),
+                            vec3(-29.999, 0.0, 10.00),
+                        },
+                    },
+                    {
+                        Bone = 58867,
+                        Name = 'w_pi_pistol50_luxe',
+                        Placement = {
+                            vec3(0.07, 0.01, 0.01),
+                            vec3(29.99, 0.0, -10.00),
+                        },
+                    },
+                },
+            },
+        },
+        {
+            Label = 'Veh Take Video Left',
+            Command = 'pavehcar9l',
+            Animation = 'pavehcar9lclip',
+            Dictionary = 'pavehcar9l@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+                Props = {
+                    {
+                        Bone = 58866,
+                        Name = 'prop_phone_ing',
+                        Placement = {
+                            vec3(0.07, -0.05, 0.01),
+                            vec3(-105.33, -168.30, 48.97),
+                        },
+                    },
+                },
+            },
+        },
+        {
+            Label = 'Veh Take Video Right',
+            Command = 'pavehcar9r',
+            Animation = 'pavehcar9rclip',
+            Dictionary = 'pavehcar9r@animations',
+            Options = {
+                Flags = {
+                    Loop = true,
+                    Move = false,
+                },
+                Props = {
+                    {
+                        Bone = 28422,
+                        Name = 'prop_phone_ing',
+                        Placement = {
+                            vec3(0.05, 0.01, 0.06),
+                            vec3(-174.96, 149.61, 8.64),
+                        },
+                    },
+                },
+            },
+        },
     }
 }
